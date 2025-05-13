@@ -1,0 +1,37 @@
+Query Label,# Day,# Night,Day:Night Ratio,mAP Day,mAP Night,Δ mAP (Day - Night)
+torgos tracheliotos,100,0,100:0,0.935,,
+struthio camelus,99,1,99:1,0.912,0.804,0.108
+oryx gazella,97,3,97:3,0.931,0.293,0.638
+pteroclidae,95,5,95:5,0.963,0.8,0.163
+antidorcas marsupialis,92,8,92:8,0.944,0.743,0.201
+giraffa camelopardalis,86,14,86:14,0.932,0.921,0.011
+corvus albus,80,0,80:0,0.98,,
+loxodanta africana,68,32,68:32,0.951,0.827,0.124
+cn-raptors,55,0,55:0,0.877,,
+neotis ludwigii,53,0,53:0,0.963,,
+papio anubis,52,0,52:0,0.979,,
+equus zebra hartmannae,47,53,47:53,0.953,0.936,0.017
+canis mesomelas,46,54,46:54,0.76,0.743,0.017
+acinonyx jubatus,42,46,42:46,0.981,0.887,0.094
+panthera leo,33,66,33:66,0.897,0.868,0.029
+panthera pardus,33,44,33:44,0.869,0.85,0.019
+hyaena brunnea,28,72,28:72,0.786,0.882,-0.096
+diceros bicornis,16,83,16:83,0.851,0.954,-0.103
+procavia capensis,16,0,16:0,1.0,,
+cn-francolins,15,0,15:0,0.965,,
+mellivora capensis,15,4,15:4,0.97,0.979,-0.009
+raphiceros campestris,14,29,14:29,0.853,0.898,-0.045
+columbidae,14,0,14:0,0.825,,
+numididae,13,0,13:0,0.996,,
+crocuta crocuta,12,88,12:88,0.768,0.813,-0.045
+tragelaphus strepsiceros,10,1,10:1,0.97,1.0,-0.03
+eupodotis rueppellii,7,0,7:0,0.915,,
+equus asinus,6,1,6:1,0.964,0.639,0.325
+corvus capensis,5,0,5:0,0.807,,
+oreotragus oreotragus,5,0,5:0,0.84,,
+hystrix africaeaustralis,4,78,4:78,1.0,0.955,0.045
+cn-owls,2,5,2:5,0.875,0.907,-0.032
+otocyon megalotis,0,5,0:5,,0.751,
+pronolagus randensis,0,23,0:23,,0.851,
+lepus capensis,0,10,0:10,,1.0,
+vulpes chama,0,6,0:6,,0.833,

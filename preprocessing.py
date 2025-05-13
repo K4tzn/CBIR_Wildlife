@@ -73,24 +73,22 @@ def create_subset(train_path, subset_path, n_samples=10):
     for category in os.listdir(train_path):
         category_path = os.path.join(train_path, category)
         
-        # Überprüfe, ob der Ordner eine Kategorie ist (verhindert, dass Unterordner anderer Art bearbeitet werden)
+        # Überprüfe, ob der Ordner eine Kategorie ist
         if os.path.isdir(category_path):
             
             # Liste der Bilder in dieser Kategorie
             images = os.listdir(category_path)
             
-            # Wähle zufällig bis zu n_samples Bilder aus
-            #selected_images = random.sample(images, min(n_samples, len(images)))
-            # Wähle exakt 10 Bilder aus (oder alle, falls weniger als 10 vorhanden sind)
+            # Wenn weniger als n_samples Bilder vorhanden sind, wähle alle aus
             selected_images = random.sample(images, 10) if len(images) > 10 else images
 
             
-            # Erstelle den Zielordner für diese Kategorie im subset
+            # Zielordner für diese Kategorie im subset erstellen
             category_subset_path = os.path.join(subset_path, category)
             if not os.path.exists(category_subset_path):
                 os.makedirs(category_subset_path)
             
-            # Kopiere die ausgewählten Bilder in den neuen Ordner
+            # Ausgewählten Bilder in den neuen Ordner kopieren
             for image in selected_images:
                 src_image_path = os.path.join(category_path, image)
                 dst_image_path = os.path.join(category_subset_path, image)
