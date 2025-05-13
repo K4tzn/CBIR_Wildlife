@@ -42,6 +42,3 @@ Original images were sourced from the LILA Science repository. The script [`imag
 
 - [`JupyterLab_notebooks/Grad-CAM.ipynb`](JupyterLab_notebooks/Grad-CAM.ipynb): Visualization of class activation maps to interpret model decision-making using Grad-CAM.
 
-## Citation
-
-If you use this repository or dataset in your work, please cite the corresponding thesis and the associated Kaggle dataset.
