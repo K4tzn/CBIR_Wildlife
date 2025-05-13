@@ -1,0 +1,13 @@
+augmented_dataset_new/
+balanced_dataset/
+balanced_dataset_split/
+inat_images/
+JSONs/
+low_gray_images/
+organized_dataset/
+tf-env/
+
+augmented_dataset_new(ohne aves).zip
+balanced_dataset_split(ohne aves).zip
+balanced_dataset.zip
+inat_images.zip
