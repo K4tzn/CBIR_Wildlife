@@ -42,3 +42,35 @@ Original images were sourced from the LILA Science repository. The script [`imag
 
 - [`JupyterLab_notebooks/Grad-CAM.ipynb`](JupyterLab_notebooks/Grad-CAM.ipynb): Visualization of class activation maps to interpret model decision-making using Grad-CAM.
 
+## GUI - CBIR for Biodiversity Research in the Desert of Northern Namibia
+
+This project includes a **Streamlit-based graphical user interface (GUI)** that allows interactive testing of the content-based image retrieval (CBIR) system developed as part of this thesis.
+
+### ✨ Features
+
+- **Upload Query Image**: Upload any image from the test set for similarity search.
+- **Model Selection**: Choose between the three best-performing models:
+  - GoogLeNet (batch size 128 + augmentation)
+  - ResNet50 (batch size 16 + augmentation + iNaturalist)
+  - ViT (batch size 64 + augmentation + iNaturalist)
+- **Top-k Retrieval**: Set the number of similar images (k) to retrieve.
+- **Cosine Similarity**: Results are ranked based on cosine similarity between deep features.
+- **Classification Suggestion**: The GUI proposes a class label based on the most frequent categories among the k nearest neighbors, including percentage values and uncertainty notices in case of ties.
+- **Species List**: An expandable list shows all 37 supported wildlife categories (scientific and English names).
+- **Result Visualization**: Retrieved images are displayed with their corresponding class label and similarity score.
+
+### 🚀 How to Run
+
+1. Install the required dependencies:
+
+    ```bash
+    pip install streamlit torch torchvision fastai faiss-cpu pillow scikit-learn
+    ```
+
+2. Start the app from the project folder:
+
+    ```bash
+    streamlit run app.py
+    ```
+
+3. Open the link shown in the terminal to access the GUI in your browser.
