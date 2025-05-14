@@ -69,11 +69,8 @@ This project includes a **Streamlit-based graphical user interface (GUI)** that 
 
 ### 🚀 How to Run
 
-1. Install the required dependencies:
+1. Install the required dependencies in the requirements.txt file with Python 3.10.11.
 
-    ```bash
-    pip install streamlit torch torchvision fastai faiss-cpu pillow scikit-learn
-    ```
 
 2. Start the app from the project folder:
 
