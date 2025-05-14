@@ -4,10 +4,17 @@ This repository contains the complete codebase and experimental workflow accompa
 
 ## Dataset
 
-The dataset, trained models, and relevant JSON files are available on Kaggle. These data need to be downloaded and integrated into this repository for full functioning:  
+The dataset, trained models, and relevant JSON files are available on Kaggle. 
+These data need to be downloaded and integrated into this repository for full functioning:  
+
 [Wildlife Trap Images (Kaggle Dataset)](https://www.kaggle.com/datasets/katzn13/wildlife-trap-images)
 
 Original images were sourced from the LILA Science repository. The script [`image_loader.py`](image_loader.py) is used to reorganize the raw image directories, which contain inconsistently nested subfolders, into a cleaner and more structured format suitable for further processing.
+
+To execute the script, the data must first be downloaded from the LILA website, specifically the files named:
+
+- `desert_lion_camera_traps.json` (metadata in JSON format)
+- `desert-lion-camera-traps-images/` (directory containing the images)
 
 
 ## Data Preparation and Preprocessing
