@@ -6,6 +6,7 @@ JSONs/
 low_gray_images/
 organized_dataset/
 tf-env/
+CBIR_GUI/models/
 
 augmented_dataset_new(ohne aves).zip
 balanced_dataset_split(ohne aves).zip
